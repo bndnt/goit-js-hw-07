@@ -1,0 +1,176 @@
+.index__ul {
+  display: flex;
+
+  flex-direction: column;
+  width: 100%;
+  max-width: 350px;
+  margin: 20px auto;
+}
+
+.index__ul li {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+.index__ul li a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  width: 100%;
+  padding: 8px 16px;
+  display: inline-block;
+  text-align: center;
+  transition: all 0.3s;
+}
+.index__ul li a:hover {
+  background: #6c8cff;
+  color: white;
+}
+
+.item {
+  border-radius: 8px;
+  padding: 16px;
+  background: #f6f6fe;
+  width: 100%;
+  max-width: 392px;
+  margin-bottom: 24px;
+}
+h2 {
+  margin-bottom: 16px;
+}
+.item ul li {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  padding: 8px 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.item ul li:last-child {
+  margin-bottom: 0;
+}
+#categories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+
+.t2__item {
+  width: calc(100% / 3 - 16px);
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.t2__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+
+.t2__item img:hover {
+  width: 120%;
+  height: 120%;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.form-btn {
+  width: 100%;
+  max-width: 86px;
+  margin-top: 8px;
+}
+
+.widget {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.widget p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 16px;
+}
+
+.t6__block {
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  background-color: #f6f6fe;
+  display: flex;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.t6__input {
+  margin-right: 16px;
+  width: 150px;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  text-align: center;
+}
+.t6__btn {
+  border-radius: 8px;
+  padding: 8px 16px;
+
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.t6__create {
+  margin-right: 16px;
+  background: #4e75ff;
+}
+.t6__destroy {
+  background: #ff4e4e;
+}
+#boxes {
+  padding: 32px 28px 32px 32px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#boxes div {
+  display: block;
+  margin-right: 44px;
+  /* margin-bottom: 40px; */
+}
